@@ -17,9 +17,15 @@
     box-sizing: border-box;
 }
 
-.container{
+.container-column{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-row{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -34,7 +40,7 @@ header{
 }
 
 .line{
-    height: 2px;
+    height: 3px;
     border: none;
     background-color: #727368;
     width: 250px;
@@ -43,4 +49,39 @@ header{
 
 body{
     background: #32292F;
+}
+
+/* First Section */
+#showcase{
+    /* padding: 15px; */
+    height: 60vh;
+    font-family:'Lobster Two', cursive;;
+    color: #B1BDA1;
+}
+
+#showcase img{
+    padding-right: 15px;
+    width: 225px;
+    float: right;
+    /* padding-right: 15px; */
+}
+
+#showcase .text{
+    float: left;
+    padding: 10px 5px 0 15px;
+    
+}
+
+#showcase .text h1{
+    font-size: 20px;
+    text-align: right;
+}
+
+#showcase .position-showcase{
+    margin-top: 50%;
+}
+
+
+#profile{
+    background-color: #727368;
 }
