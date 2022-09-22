@@ -54,7 +54,7 @@ body{
 /* First Section */
 #showcase{
     /* padding: 15px; */
-    height: 60vh;
+    height: 70vh;
     font-family:'Lobster Two', cursive;;
     color: #B1BDA1;
 }
@@ -68,8 +68,7 @@ body{
 
 #showcase .text{
     float: left;
-    padding: 10px 5px 0 15px;
-    
+    padding: 0 6px 0 15px;
 }
 
 #showcase .text h1{
@@ -77,8 +76,13 @@ body{
     text-align: right;
 }
 
+#showcase h2{
+    padding-top: 50px;
+    text-align: center;
+}
+
 #showcase .position-showcase{
-    margin-top: 50%;
+    margin-top: 40%;
 }
 
 
