@@ -37,6 +37,8 @@ header{
     background-color: #32292F;
     color: white;
     height: 100px;
+    /* Header should be stationary */
+    position: sticky;
 }
 
 .line{
@@ -85,7 +87,31 @@ body{
     margin-top: 40%;
 }
 
-
+/* Second Section */
 #profile{
     background-color: #727368;
+    min-height: 500px;
+}
+
+#profile h3{
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+    color: #B1BDA1;
+}
+
+#profile img{
+    width: 75%;
+    border: 2px solid #B1BDA1;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#profile p{
+    padding: 0 50px 0 60px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color: #B1BDA1;
+    text-align: center;
 }
