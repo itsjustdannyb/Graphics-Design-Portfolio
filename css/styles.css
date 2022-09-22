@@ -57,7 +57,7 @@ body{
 #showcase{
     /* padding: 15px; */
     height: 70vh;
-    font-family:'Lobster Two', cursive;;
+    font-family:'Lobster Two', cursive;
     color: #B1BDA1;
 }
 
@@ -130,4 +130,13 @@ body{
     font-size: 24px;
     font-weight: 600;
     color: #B1BDA1;
+}
+
+
+/* section 3 */
+#project h2{
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+    font-family:'Lobster Two', cursive;
+    color: #CDCAC7;
 }
