@@ -90,13 +90,14 @@ body{
 /* Second Section */
 #profile{
     background-color: #727368;
-    min-height: 500px;
+    min-height: 600px;
+    width: 100vw;
 }
 
 #profile h3{
     font-family: 'Lobster Two', cursive;
     text-align: center;
-    padding-top: 60px;
+    padding: 60px 0 15px 0;
     font-size: 20px;
     color: #B1BDA1;
 }
@@ -111,7 +112,26 @@ body{
 #profile p{
     padding: 0 50px 0 60px;
     font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
     font-weight: 600;
     color: #B1BDA1;
     text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.button{
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid #B1BDA1;
+    background-color: #727368;
+}
+
+#profile .container-column .button p{
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* font-size: 4px; */
+    /* text-align: center; */
+    /* padding-top: 45px; */
+    
 }
