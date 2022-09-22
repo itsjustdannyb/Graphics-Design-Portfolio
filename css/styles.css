@@ -1,3 +1,16 @@
+/* Font for Logo */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
+/* Headings */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+/* font-family: 'Lobster Two', cursive;*/
+
+/* Body */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+/* font-family: 'Titillium Web', sans-serif; */
+
+
 *{
     padding: 0;
     margin: 0;
