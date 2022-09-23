@@ -132,6 +132,18 @@ body{
     color: #B1BDA1;
 }
 
+.button2{
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid #B1BDA1;
+    background-color: #32292F;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #B1BDA1;
+}
+
 
 /* section 3 */
 #project h2{
@@ -164,7 +176,8 @@ body{
     padding: 25px 45px 65px 45px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
+    width: 400px;
     
 }
     
@@ -187,6 +200,15 @@ body{
     padding: 25px 45px 65px 45px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
+    width: 400px;
     
+}
+
+/* cta */
+
+#cta{margin: 10px;
+    background: #32292F;
+    min-height: 200px;
+    padding-top: 75px;
 }
