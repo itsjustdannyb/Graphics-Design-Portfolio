@@ -15,6 +15,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* overflow: hidden; */
+    /* scroll-behavior: smooth; */
 }
 
 .container-column{
@@ -211,4 +213,34 @@ body{
     background: #32292F;
     min-height: 200px;
     padding-top: 75px;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    padding: 60px;
+    min-height: 100px;
+    background: #CDCAC7;
+}
+.icons a img{
+    width: 25px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+footer p{
+    text-align: center;
+    font-family:  'Titillium Web', sans-serif;
+    font-weight: 600;
+    padding: 15px;
+    
 }
