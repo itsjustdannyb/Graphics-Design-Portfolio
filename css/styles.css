@@ -104,7 +104,7 @@ body{
 
 #profile img{
     width: 75%;
-    border: 2px solid #B1BDA1;
+    border: 3px solid #B1BDA1;
     border-radius: 15px;
     margin-bottom: 10px;
 }
@@ -144,3 +144,25 @@ body{
 #project img{
     width: 295px;
 }
+
+#project .template1{
+    background-color: #B1BDA1;
+    min-height: 400px;
+    color: #32292F;
+}
+
+#project .template1 img{
+    border: 3px solid #32292F;
+    margin-top: 70px;
+    border-radius: 15px;
+    
+}
+
+#project .template1 p{
+    padding: 25px 45px 65px 45px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    
+}
+    
