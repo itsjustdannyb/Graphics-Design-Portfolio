@@ -130,7 +130,7 @@ body{
     text-transform:uppercase;
     color: var(--satin-sheen);
     background-color: var(--raisin-black);
-    box-shadow:  0px 0px 5px 2px var(--satin-sheen);
+    box-shadow:  0px 1px 5px 1px var(--satin-sheen), 0px -1px 5px 1px var(--satin-sheen);
 }
 
 #project img{
