@@ -146,7 +146,7 @@ body{
 #project .template1 h3{
     margin-top: 60px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 #project .template1 img{
@@ -159,10 +159,11 @@ body{
 #project .template1 p{
     padding: 25px 45px 65px 45px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     text-align: center;
     width: 400px;
     line-height: 1.5;
+    font-size: 14px;
 }
     
 /* Tempalate 2 */
