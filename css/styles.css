@@ -116,6 +116,11 @@ body{
 
 
 /* section 2 */
+
+#project{
+    margin-top: 50px;
+}
+
 #project h2{
     text-align: center;
     padding: 100px 0px 100px 0px;
@@ -124,7 +129,7 @@ body{
     text-transform:uppercase;
     color: var(--satin-sheen);
     background-color: var(--raisin-black);
-    box-shadow:  0px 1px 5px 2px var(--satin-sheen);
+    box-shadow:  0px 0px 5px 2px var(--satin-sheen);
 }
 
 #project img{
@@ -134,33 +139,38 @@ body{
 /* Template 1 */
 
 #project .template1{
-    background-color: var(--Jet);
     min-height: 400px;
-    color: var(--raisin-black);
+    color: var(--satin-sheen);
+}
+
+#project .template1 h3{
+    margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 
 #project .template1 img{
-    border: 3px solid var(--raisin-black);
-    margin-top: 70px;
-    border-radius: 15px;
+    /* border: 1px solid var(--satin-sheen); */
+    margin-top: 5px;
+    border-radius: 10px;
     
 }
 
 #project .template1 p{
     padding: 25px 45px 65px 45px;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
     text-align: center;
     width: 400px;
-    
+    line-height: 1.5;
 }
     
 /* Tempalate 2 */
 
 #project .template2{
-    background-color: var(--raisin-black);
+    background-color: var(--Jet);
     min-height: 400px;
-    color: var(--Jet);
+    color: var(--platinum);
 }
 
 #project .template2 img{
