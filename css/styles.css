@@ -19,7 +19,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* overflow: auto; */
     /* scroll-behavior: smooth; */
 }
 
@@ -43,6 +42,17 @@
     align-items: center;
 }
 
+.button{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid var(--satin-sheen);
+    background-color: var(--Jet);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--satin-sheen);
+}
 
 /* The webpage */
 header{
@@ -62,10 +72,11 @@ body{
     overflow-x: hidden;
 }
 
-
+/* Gold span */
 .gold{
     color: var(--satin-sheen);
 }
+
 /* First Section */
 #profile{ 
     min-height: 600px;
@@ -74,13 +85,13 @@ body{
 
 #profile img{
     width: 75%;
-    border: 2px dotted var(--satin-sheen);
+    border: 1px ridge var(--satin-sheen);
     border-radius: 6px;
-    margin-bottom: 25px;
+    margin: 25px 0 10px 0;
 }
 
 #profile p{
-    padding: 0 50px 0 60px;
+    padding: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -90,19 +101,7 @@ body{
 
 }
 
-.button{
-    width: 250px;
-    height: 50px;
-    border-radius: 15px;
-    border: 2px solid var(--Jet);
-    background-color: var(--satin-sheen);
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--Jet);
-}
-
-.button2{
+/* .button2{
     width: 250px;
     height: 50px;
     border-radius: 15px;
@@ -112,7 +111,7 @@ body{
     font-size: 24px;
     font-weight: 600;
     color: var(--Jet);
-}
+} */
 
 
 /* section 3 */
