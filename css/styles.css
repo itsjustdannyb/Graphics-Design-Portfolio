@@ -143,7 +143,7 @@ body{
     color: var(--satin-sheen);
 }
 
-#project .template1 h3{
+#project h3{
     margin-top: 60px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -175,38 +175,70 @@ body{
 }
 
 #project .template2 img{
-    border: 3px solid var(--raisin-black);
-    margin-top: 70px;
-    border-radius: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
     
 }
 
 #project .template2 p{
     padding: 25px 45px 65px 45px;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
     text-align: center;
     width: 400px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+
+/* Tempalate 3 */
+
+#project .template3{
+    background-color: var(--platinum);
+    min-height: 400px;
+    color: var(--raisin-black);
+}
+
+#project .template3 img{
+    margin-top: 5px;
+    border-radius: 10px;
     
+}
+
+#project .template3 p{
+    padding: 25px 45px 65px 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    width: 400px;
+    line-height: 1.5;
+    font-size: 14px;
 }
 
 /* cta */
 
-#cta{margin: 10px;
-    background: var(--raisin-black);
+#cta{
+    background: var(--Jet);
     min-height: 200px;
     padding-top: 75px;
+    width: 100%;
 }
-
+#cta h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--platinum);
+    margin-bottom: 25px;
+}
 /* Footer */
 footer{
     width: 100%;
     padding: 60px;
     min-height: 100px;
-    background: #CDCAC7;
+    background: var(--raisin-black);
 }
 .icons a img{
     width: 25px;
+    
 }
 
 footer ul{
@@ -222,8 +254,9 @@ footer ul li{
 
 footer p{
     text-align: center;
-    font-family:  'Titillium Web', sans-serif;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     padding: 15px;
+    color: var(--satin-sheen);
     
 }
