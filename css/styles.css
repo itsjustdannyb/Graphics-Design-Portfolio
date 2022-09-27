@@ -54,7 +54,10 @@
     font-weight: 600;
     color: var(--satin-sheen);
 }
-
+a{
+    color: var(--platinum);
+    text-decoration: none;
+}
 /* The webpage */
 header{
     height: 100px;
