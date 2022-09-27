@@ -216,6 +216,18 @@ body{
     font-size: 14px;
 }
 
+/* Unfinished */
+
+.unfinished h2{
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform:uppercase;
+    color: var(--satin-sheen);
+    background-color: var(--raisin-black);
+    box-shadow:  0px 1px 5px 1px var(--satin-sheen), 0px -1px 5px 1px var(--satin-sheen);
+}
 /* cta */
 
 #cta{
